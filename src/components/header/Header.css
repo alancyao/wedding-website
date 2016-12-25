@@ -22,9 +22,9 @@
   z-index: 8002;
 }
 
-.inner {
+.header-inner {
   margin: 0 auto;
-  padding: 25px 30px;
+  padding: 25px 80px;
   vertical-align: middle;
   width: 100%;
 }
@@ -44,7 +44,7 @@
 /**
  * Mobile Devices ( Phones )
  */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .heading {
     text-align: center;
   }

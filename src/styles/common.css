@@ -1,3 +1,42 @@
 /**
  * Common Styles
  */
+
+body {
+  color: #363636;
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 1.6em;
+  font-style: normal;
+  font-weight: 500;
+  margin:0;
+  padding:0;
+}
+
+a {
+  color: #6598b8;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+}
+
+h3 {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 32px;
+  line-height: 1.2em;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0;
+  font-weight: 400;
+  font-style: normal;
+  margin: 1em 0 .5em;
+  color: #1c1c1c;
+}
+
+[hidden] {
+  display: none !important;
+}
+

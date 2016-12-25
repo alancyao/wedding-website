@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { title, cards } from '../content/content';
 import Header from './header/Header';
 
+import '../styles/common.css';
+
 class AppLayout extends Component {
   render() {
     const scrollingCards = cards.map(card => (

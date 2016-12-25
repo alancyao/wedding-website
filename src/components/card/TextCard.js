@@ -3,7 +3,7 @@ import './TextCard.css';
 
 const TextCard = ({ title, text }) => (
   <section className="section">
-    <div className="inner">
+    <div className="textcard-inner">
       <h3>{title}</h3>
       <p>{text}</p>
     </div>
@@ -16,4 +16,3 @@ TextCard.propTypes = {
 };
 
 export default TextCard;
-
