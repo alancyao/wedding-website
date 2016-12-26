@@ -7,6 +7,7 @@ import engagementSpot from './engagementSpot.jpg';
 import travel from './travel.jpg';
 import ring from './ring.jpg';
 import napa from './napa.jpg';
+import napaMobile from './napa_mobile.jpg';
 
 export const nl2br = (text) => (
   text.split("\n").map((item, idx) => (
@@ -74,7 +75,7 @@ export const cards = [
       />
     ),
     parallaxImage: (
-      <ParallaxImage imageUrl={napa} />
+      <ParallaxImage imageUrl={napaMobile} desktopImageUrl={napa} />
     ),
   },
   {
