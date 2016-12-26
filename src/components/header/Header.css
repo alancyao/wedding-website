@@ -1,14 +1,14 @@
 .header {
-  background-color: #fff;
+  width: 100%;
+  background-color: #ffffff;
   display: block;
   position: fixed;
-  width: 100%;
   z-index: 9001;
   height: 10vh;
 }
 
 .heading {
-  font-size: 18px;
+  font-size: 4vh;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 5px;
@@ -16,14 +16,13 @@
   padding: 0;
   position: relative;
   text-transform: lowercase;
-  text-decoration: none;
   vertical-align: middle;
   z-index: 8002;
 }
 
 .header-inner {
-  margin: 0 auto;
-  padding: 25px 80px;
+  margin: 0;
+  padding: 3vh 5vw;
   vertical-align: middle;
   width: 100%;
 }
@@ -37,7 +36,7 @@
   }
 
   .header-inner {
-    padding: 20px 0px;
+    padding: 3vh 0px;
     text-align: center;
   }
 }

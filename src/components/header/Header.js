@@ -3,10 +3,8 @@ import './Header.css';
 
 const Header = ({ title }) => (
   <header className="header">
-    <div className="header-inner row">
-      <div className="col-sm-12">
-        <h1 className="heading">{title}</h1>
-      </div>
+    <div className="header-inner">
+      <h1 className="heading">{title}</h1>
     </div>
   </header>
 );
