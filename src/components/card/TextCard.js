@@ -5,14 +5,14 @@ const TextCard = ({ title, text }) => (
   <section className="section">
     <div className="textcard-inner">
       <h3>{title}</h3>
-      <p>{text}</p>
+      <div>{text}</div>
     </div>
   </section>
 );
 
 TextCard.propTypes = {
-  title: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired,
+  title: PropTypes.string,
+  text: PropTypes.any.isRequired,
 };
 
 export default TextCard;

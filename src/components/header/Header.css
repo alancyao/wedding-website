@@ -2,9 +2,9 @@
   background-color: #fff;
   display: block;
   position: fixed;
-  transition: all 100ms linear 100ms;
   width: 100%;
-  z-index: 8001;
+  z-index: 9001;
+  height: 10vh;
 }
 
 .heading {
@@ -12,7 +12,6 @@
   font-style: normal;
   font-weight: 400;
   letter-spacing: 5px;
-  line-height: 1em;
   margin: 0;
   padding: 0;
   position: relative;
@@ -29,28 +28,16 @@
   width: 100%;
 }
 
-.scrolled {
-  background-color: #f5f5f5;
-}
-
-.scrolled .inner {
-  padding: 15px 80px;
-}
-
-.scrolled .heading {
-  font-size: 90%;
-}
-
 /**
- * Mobile Devices ( Phones )
+ *  All phones
  */
 @media (max-width: 576px) {
   .heading {
     text-align: center;
   }
 
-  .inner {
-    padding: 25px 50px;
+  .header-inner {
+    padding: 20px 0px;
     text-align: center;
   }
 }

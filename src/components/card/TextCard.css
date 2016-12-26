@@ -1,10 +1,19 @@
 .section {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .textcard-inner {
   margin: 0 auto;
   max-width: 700px;
-  padding: 70px 8%;
+  padding: 25% 8%;
   text-align: center;
+}
+
+/**
+ * Small mobile device. 347 for forms.
+ */
+@media (max-width: 347px) {
+  .textcard-inner {
+    padding: 25% 4%;
+  }
 }

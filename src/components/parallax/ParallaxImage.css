@@ -6,10 +6,3 @@
   display: block;
   height: 90vh;
 }
-
-@media (max-width: 768px) {
-  .parallax {
-    background-attachment: scroll;
-  }
-}
-
