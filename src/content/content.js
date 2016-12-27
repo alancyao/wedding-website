@@ -40,6 +40,7 @@ const card3Text = (
     If you feel led to express love and/or give congratulations through gifts, we are registered with <a href="https://www.amazon.com/wedding/alan-yao-stevie-chang-saratoga-august-2017/registry/2MKO8H55UHTBQ">Amazon</a>.<br />
   </div>
 );
+const secretCode = "corge2k17";
 
 export const cards = [
   {
@@ -83,7 +84,7 @@ export const cards = [
     card: (
       <TextCard
         title="RSVP"
-        text={<RsvpSubCard secretCode="stalan2017"  />}
+        text={<RsvpSubCard secretCode={secretCode}  />}
       />
     ),
     parallaxImage: (
