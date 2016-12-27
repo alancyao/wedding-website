@@ -24,7 +24,7 @@ const card1Text = `Summer 2014: she lived down the street from him. She said she
 A true end, 78 hours of gameplay together, and a finished game later - Liana, her roommate, went to take a shower. He asked her out. She said yes.
 Exactly two years and two Japan trips later, atop the Tokyo Skytree (picture above), he gave her a ring. She said yes.
 `;
-const card2Text = `The ceremony will be at the Hakone Estate and Gardens in Saratoga, CA.
+const card2Text = `The ceremony will be held at the Hakone Estate and Gardens in Saratoga, CA.
 The reception will take place after, at the same venue. Dinner & drinks will be provided.
 Formal attire requested, but note that this is an outdoors wedding on unpaved grounds.
 `;
