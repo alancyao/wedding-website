@@ -83,7 +83,7 @@ export const cards = [
     card: (
       <TextCard
         title="RSVP"
-        text={<RsvpSubCard  />}
+        text={<RsvpSubCard secretCode="stalan2017"  />}
       />
     ),
     parallaxImage: (
