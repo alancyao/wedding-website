@@ -1,11 +1,10 @@
 {
   "main.css": "static/css/main.8e47f4e8.css",
   "main.css.map": "static/css/main.8e47f4e8.css.map",
-  "main.js": "static/js/main.a489ab59.js",
-  "main.js.map": "static/js/main.a489ab59.js.map",
-  "static/media/bunny.jpg": "static/media/bunny.eef29c96.jpg",
-  "static/media/engagementSpot.jpg": "static/media/engagementSpot.ce8775f9.jpg",
-  "static/media/napa.jpg": "static/media/napa.25d63272.jpg",
-  "static/media/napa_mobile.jpg": "static/media/napa_mobile.d5b65adf.jpg",
-  "static/media/ring.jpg": "static/media/ring.2cfac65b.jpg"
+  "main.js": "static/js/main.57d588fc.js",
+  "main.js.map": "static/js/main.57d588fc.js.map",
+  "static/media/e1.jpg": "static/media/e1.60d9b2e5.jpg",
+  "static/media/e2.jpg": "static/media/e2.5c78863f.jpg",
+  "static/media/e3.jpg": "static/media/e3.1addd521.jpg",
+  "static/media/e4.jpg": "static/media/e4.462415a1.jpg"
 }
